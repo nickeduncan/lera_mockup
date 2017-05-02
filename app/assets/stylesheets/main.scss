@@ -53,7 +53,7 @@
     content: "\e259";
     position: absolute;
     top: 10em;
-    padding: 1em 0 30em;
+    margin: 0 auto;
 
     &:hover{
       text-shadow: #fff 0px 0px 10px;
@@ -63,7 +63,7 @@
 .two {
   width: 100%;
   text-align: center;
-  margin: 1em auto;
+  padding: 1em 0 24em;
 
   .two-image {
     display: inline;
