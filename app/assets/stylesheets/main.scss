@@ -47,6 +47,9 @@
     border: solid 4px rgb(255,60,100);
   }
 
+  a {
+    transition: 1s;
+  }
   .glyphicon-menu-down {
     color: white;
     font-size: 4em;
@@ -57,16 +60,18 @@
 
     &:hover{
       text-shadow: #fff 0px 0px 10px;
+      cursor: pointer;
     }
   }
 }
-.two {
+
+#two {
   width: 100%;
   text-align: center;
-  padding: 1em 0 24em;
+  padding: 1em 0 0;
 
   .two-image {
-    display: inline;
+    display: inline-block;
 
     img {
       height: 20em;
@@ -74,6 +79,48 @@
       border-radius: 100%;
       margin: 0 4em;
       border: solid white 8px;
+      transition: transform 0.5s;
+
+      &:hover {
+        height: 25em;
+        width: 25em;
+        transform: rotate(360deg);
+        box-shadow: white 0px 0px 10px;
+      }
+    }
+
+    h2 {
+      color: white;
+      font-size: 3em;
+      font-weight: bolder;
+    }
+  }
+}
+
+.entry-content {
+  margin: 7em auto;
+  width: 80%;
+  background: white;
+  padding: 3em 4em;
+  border-radius: 50px;
+
+  h2 {
+    color: #02467b;
+    font-size: 3em;
+  }
+
+  p {
+    color: #196eb1;
+    margin: 1em 0 2em 0;
+    font-size: 1.3em;
+  }
+
+  li {
+    color: #196eb1;
+    font-size: 1.3em;
+
+    &:first-child {
+      margin: 1em 0 0 0;
     }
   }
 }

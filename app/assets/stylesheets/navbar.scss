@@ -15,13 +15,20 @@ nav {
   z-index: 3;
 	/*box-shadow: 0 1px 10px 1px #fff7e6;*/
 
+  .logo {
+		padding: 0.5em 0 0 1em;
+		height: 3em;
+    cursor: pointer;
+  }
+}
+
 	.menu_toggle {
 		font-size: 3em;
 		float: right;
-		filter: invert(1);
 		margin: 0.2em;
+    color: white;
+    cursor: pointer;
 	}
-}
 
 ul.menu {
 	padding: 0px;
@@ -61,11 +68,4 @@ span.icon-bar {
     font-size: 20px !important;
     padding-top: 6px !important;
     padding-bottom: 12px !important;
-}
-
-.logo {
-			margin: -0.3em 0.5em;
-			height: 5em;
-			width: 5em;
-			filter: invert(1);
 }
