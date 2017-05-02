@@ -1,0 +1,70 @@
+
+
+/* -------- */
+/** NAVBAR **/
+/* ------- */
+
+header {
+	font-size: 1em;
+	/*background-color: rgba(248, 216, 156, 0.3);*/
+	display: flex;
+}
+
+nav {
+	width: 100%;
+	/*box-shadow: 0 1px 10px 1px #fff7e6;*/
+
+	.menu_toggle {
+		font-size: 3em;
+		float: right;
+		filter: invert(1);
+		margin: 0.2em;
+	}
+}
+
+ul.menu {
+	padding: 0px;
+	margin: 0;
+	display: none;
+	height: 23em;
+	text-align: right;
+
+	li {
+		margin: 1.1em 1.3em 0 0;
+		color: #fff;
+		font-size: 2.5em;
+
+		&:hover {
+		  text-shadow: #f8d89c 0 0 8px;
+		}
+	}
+}
+
+button {
+  border: 0;
+  height: 3em;
+  width: 3em;
+  border-radius: 5px;
+  margin: 0.6em 1.3em;
+  float: right;
+	background-color: #081828;
+}
+
+span.icon-bar {
+	border: 1px solid white;
+	width: 1px;
+	height: 1px;
+}
+
+.topnav-localicons {
+    font-size: 20px !important;
+    padding-top: 6px !important;
+    padding-bottom: 12px !important;
+}
+
+.logo {
+			margin: -0.3em 0.5em;
+			height: 5em;
+			width: 5em;
+			filter: invert(1);
+}
