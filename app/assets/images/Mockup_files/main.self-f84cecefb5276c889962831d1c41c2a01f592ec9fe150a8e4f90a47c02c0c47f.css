@@ -1,0 +1,48 @@
+/* line 5, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/main.scss */
+.video {
+  position: fixed;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* line 15, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/main.scss */
+.content {
+  position: relative;
+  top: -6em;
+  z-index: 2;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(/assets/main-c9ae4e7687606b0f835dee532c799a25f6ac9f99696783f141c0e7641089b8dc.jpg);
+  background-size: cover;
+  height: 51em;
+  width: 100%;
+}
+/* line 26, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/main.scss */
+.content .content-heading {
+  position: relative;
+  top: 3em;
+  color: #466373;
+  font-size: 4em;
+  font-weight: bold;
+}
+/* line 35, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/main.scss */
+.content .content-teaser {
+  margin-bottom: 24px;
+  color: #595959;
+  font-size: 22px;
+}
+/* line 41, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/main.scss */
+.content .content-cta {
+  display: inline-block;
+  margin: 0;
+  padding: 12px 48px;
+  color: #ff3c64;
+  font-size: 22px;
+  text-decoration: none;
+  border: solid 4px #ff3c64;
+}

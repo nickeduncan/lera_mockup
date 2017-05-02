@@ -1,0 +1,25 @@
+/* line 5, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/pages.scss */
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* line 11, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/pages.scss */
+html {
+  display: flex;
+  background-color: skyblue;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 19, /Users/nicholasduncan/Desktop/lera_consulting_mockup/mockup/app/assets/stylesheets/pages.scss */
+body {
+  font-family: "Oxygen", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+}
