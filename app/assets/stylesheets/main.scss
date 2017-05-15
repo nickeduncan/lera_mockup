@@ -14,7 +14,7 @@
   z-index: 2;
   margin: 0 auto;
   text-align: center;
-  background-image: image-url("main.jpeg");
+  background-image: image-url("mountains.jpeg");
   background-size: cover;
   height: 51em;
   width: 100%;
@@ -28,7 +28,7 @@
     // color: #466373;
     font-size: 5em;
     font-weight: bolder;
-    text-shadow: #51829c 0px 0px 10px;
+    text-shadow: #b85832 0px 0px 10px;
   }
 
   .content-teaser {
@@ -102,18 +102,18 @@
   border-radius: 50px;
 
   h2 {
-    color: #02467b;
+    color: #b85832;
     font-size: 3em;
   }
 
   p {
-    color: #196eb1;
+    color: #ca915a;
     margin: 1em 0 2em 0;
     font-size: 1.3em;
   }
 
   li {
-    color: #196eb1;
+    color: #ca915a;
     font-size: 1.3em;
 
     &:first-child {
