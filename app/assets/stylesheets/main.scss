@@ -94,7 +94,7 @@
   }
 }
 
-.entry-content {
+.info-panel {
   margin: 7em auto;
   width: 80%;
   background: white;
@@ -118,6 +118,82 @@
 
     &:first-child {
       margin: 1em 0 0 0;
+    }
+  }
+}
+
+.clients {
+  border-radius: 1em;
+
+  .client-group {
+    display: inline-flex;
+    position: relative;
+
+    .client {
+      box-shadow: 1px 1px 1px black;
+    }
+  }
+
+  .client-group-left {
+    float: left;
+    z-index: 2;
+
+    .client-left {
+      img {
+        height: 6em;
+        width: 11em;
+        background-color: #fff;
+        padding: 1em;
+        margin: 0.5em;
+      }
+    }
+  }
+
+  .client-group-front {
+    left: 18em;
+    z-index: 3;
+    top: -4em;
+
+    .client-front {
+      img {
+        width: 23em;
+        padding: 2em;
+        background-color: white;
+        height: 11em;
+        margin: 1em;
+      }
+    }
+  }
+
+  .client-group-right {
+    float: right;
+    top: -2em;
+    z-index: 2;
+
+    .client-right {
+      img {
+        height: 6em;
+        width: 11em;
+        background-color: #fff;
+        padding: 1em;
+        margin: 0.5em;
+      }
+    }
+  }
+
+  .client-group-back {
+    z-index: 1;
+    top: -5em;
+    left: -18em;
+
+    .client-back {
+      img {
+        padding: 0.5em;
+        background-color: white;
+        height: 4em;
+        width: 6em;
+        margin: 0.25em;
+      }
     }
   }
 }
