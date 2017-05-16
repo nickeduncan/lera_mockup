@@ -125,18 +125,26 @@
 .clients {
   border-radius: 1em;
 
+  h2 {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 1em;
+  }
+
   .client-group {
     display: inline-flex;
     position: relative;
 
     .client {
-      box-shadow: 1px 1px 1px black;
+      box-shadow: 1px 1px 5px black;
+      border-radius: 1em;
     }
   }
 
   .client-group-left {
     float: left;
     z-index: 2;
+    left: 2em;
 
     .client-left {
       img {
@@ -167,8 +175,9 @@
 
   .client-group-right {
     float: right;
-    top: -2em;
+    top: -5em;
     z-index: 2;
+    left: -2em;
 
     .client-right {
       img {
@@ -183,8 +192,8 @@
 
   .client-group-back {
     z-index: 1;
-    top: -5em;
-    left: -18em;
+    top: -2em;
+    left: -17em;
 
     .client-back {
       img {
@@ -196,4 +205,23 @@
       }
     }
   }
+}
+
+.glyphicon-menu-left {
+  float: left;
+  color: #fff;
+  font-size: 4em;
+  left: 4em;
+  top: -2.8em;
+  position: relative;
+  text-shadow: 1px 1px 1px black;
+}
+.glyphicon-menu-right {
+  float: right;
+  color: #fff;
+  font-size: 4em;
+  left: -4em;
+  top: -2.8em;
+  position: relative;
+  text-shadow: 1px 1px 1px black;
 }
